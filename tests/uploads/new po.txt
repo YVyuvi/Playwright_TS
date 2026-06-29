@@ -1,0 +1,27 @@
+H1SL0025EDIWEB  2026010815:50:08XPRT  XPRTEDICXEDIEDIC    4501890930  O2EDIWEB      0000
+@RDLVS4501890930  EDIQ000259377451XEDIFTP 202601081550   TNIPHAN TNIPIAH            0001
+@RLOG 4501890930  EDIQ000259377451XEDIFTP 202601081550           TNIPIAH            0002
+PHA2          TNIPIAH           4501890930                                         40003
+XC9     EA  2588.0    L                                                             0004
+XC  Andrew Correa                         164640                                    0005
+XC                                                            USD                   0006
+XC                            HAN                                                   0007
+XC                                                                5100              0008
+XC      20251228S                                                                   0009
+SEC          EOACO|O146364820|1|146364863|F  20260108155008                         0010
+XC               CO                     CO                                          0011
+ADC1          V         DOUSON VIETNAM WELLHEAD EQUIPMENT                           0012
+ADC1          C         FMC TECHNOLOGIES                                            0013
+PIC2                        4501890930                          P1000254860         0014
+XC                    49     EA                                            TUBING HE0015
+XCAD FINISHED BODY TCMLR 9 34                                            2588.0   L 0016
+XC              3050.0     USDPlease ship parts FCL Ocean Freight to T    P1000254860017
+XC0/20                                                                              0018
+XC                              20260101        20260101                            0019
+XC                                                                                  0020
+XC                                                                          20      0021
+XC                                                                                  0022
+XC                                                                       7326908688 0023
+XC P1000254860/20                                                                   0024
+HTC1          7326908688                                                            0025
+T1SL0025EDIWEB  2026010815:50:08XPRT  XPRTEDICXEDIEDIC    4501890930  O2EDIWEB      9999

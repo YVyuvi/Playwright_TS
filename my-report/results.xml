@@ -1,0 +1,12 @@
+<testsuites id="" name="" tests="2" failures="0" skipped="0" errors="0" time="20.811487">
+<testsuite name="Day23_Reporters.spec.ts" timestamp="2026-02-17T06:55:30.519Z" hostname="chromium" tests="2" failures="0" skipped="0" time="18.384" errors="0">
+<testcase name="Demoblaze Tests › Find no of products" classname="Day23_Reporters.spec.ts" time="8.593">
+<system-out>
+<![CDATA[No of products: [33m9[39m
+]]>
+</system-out>
+</testcase>
+<testcase name="Demoblaze Tests › Add product to cart" classname="Day23_Reporters.spec.ts" time="9.791">
+</testcase>
+</testsuite>
+</testsuites>

@@ -1,0 +1,52 @@
+PS C:\WorkSpace> node -v
+v22.19.0
+PS C:\WorkSpace> npm -v
+10.9.3
+PS C:\WorkSpace> npx playwright -v
+error: unknown option '-v'
+PS C:\WorkSpace> npx playwright --version
+Version 1.56.0
+PS C:\WorkSpace> 
+
+
+await page.getByRole('button', { name: 'Back' }).click();
+  await page.getByRole('cell', { name: 'Last Saved Date ▲' }).click();
+
+await this.select(this.modeDropdown,mode);
+        await this.fill(this.customerName, CreateBookingPageTestData.customerName);
+        await this.fill(this.customerPhone,CreateBookingPageTestData.customerPhone);
+        await this.fill(this.shipperName, CreateBookingPageTestData.shipperName);
+        await this.fill(this.shipperPhone,CreateBookingPageTestData.shipperPhone);
+        await this.fill(this.consigneeName, CreateBookingPageTestData.consigneeName);
+        await this.fill(this.consigneePhone,CreateBookingPageTestData.consigneePhone);
+        await this.select(this.originOffice, CreateBookingPageTestData.originOffice);
+        await this.select(this.originPort, CreateBookingPageTestData.originPort);
+        await this.select(this.destinationPort, CreateBookingPageTestData.destinationPort);
+        await this.select(this.serviceType, CreateBookingPageTestData.serviceType);
+        await this.click(this.shipmentPickupTab);
+        await this.fill(this.generalDescriptionOfGoods, CreateBookingPageTestData.generalDescriptionOfGoods)
+        await this.click(this.yesButton);
+        await this.fill(this.readyByDate, CreateBookingPageTestData.readyByDate);
+        //await this.click(this.readyByTime);
+        await this.fill(this.readyByTime, CreateBookingPageTestData.readyByTime);
+        await this.click(this.termsTab);
+        for (const btn of this.collectButtons) {
+            await this.click(btn);
+        }
+        await this.fill(this.pleaseSpecify, CreateBookingPageTestData.pleaseSpecify)
+        if(mode=='Ocean'){
+            await this.fill(this.containerCount, CreateBookingPageTestData.containerCount)
+            await this.select(this.containerSize, CreateBookingPageTestData.containerSize);
+        }
+        await this.fill(this.totalNumberOfPieces, CreateBookingPageTestData.totalNumberOfPieces)
+        await this.fill(this.totalWeight, CreateBookingPageTestData.totalWeight)
+        await this.fill(this.totalVolume, CreateBookingPageTestData.totalVolume)
+        if(mode!='Ocean'){
+            await this.click(this.insuranceAmount); // Repeat if needed
+            await this.fill(this.insuranceAmount, CreateBookingPageTestData.insuranceAmount)
+            await this.select(this.insuranceCurrency, CreateBookingPageTestData.insuranceCurrency);
+        }
+        await this.click(this.shipperConsigneeTab);
+        await this.click(this.shipperTab);
+        await this.fill(this.referenceNumber, CreateBookingPageTestData.referenceNumber);
+        await this.select(this.referenceType, CreateBookingPageTestData.invoiceNumber);
